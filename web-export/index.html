@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+		<!-- the name of your sketch will be substituted here -->
+		<title>midtermProject : Interactive Computing @ NYU</title>
+		
+		<!-- custom styles for this page -->
+		<style type="text/css">
+			
+			body {
+				background-color: #EEE;
+				font-family: sans-serif;
+				font-size: 100%;
+			}
+			
+			#midtermProject {
+
+				/* position your canvas element here, if you want */
+				/*
+
+				display: block;
+				margin: auto;
+				
+				*/
+			}
+	
+		</style>
+		
+		<!-- Older versions of IE don't support the 'canvas' tag, so we can trigger a pop-up 
+		    to tell them that they should update their browser here -->
+		<!--[if lt IE 9]>
+			<script type="text/javascript">alert("Your browser does not support the canvas tag.");</script>
+		<![endif]-->
+		
+		<!-- load the Processing JS library -->
+		<script src="processing.js" type="text/javascript"></script>
+		
+		<!-- load the Minim Sound library -->
+		<script src="minim.js" type="text/javascript"></script>
+		
+		<!-- this line will be substituted with some additional JavaScript needed by ProcessingJS -->	
+		<script type="text/javascript">
+// convenience function to get the id attribute of generated sketch html element
+function getProcessingSketchId () { return 'midtermProject'; }
+</script>
+	
+	</head>
+
+	<body>
+	
+		<h1>midtermProject : Interactive Computing @ NYU</h1>
+	
+		<!-- the actual canvas element that will render your sketch -->
+		<canvas id="midtermProject" data-processing-sources="midtermProject.pde" 
+				width="700" height="500">
+			<p>Your browser does not support the canvas tag.</p>
+			<!-- Note: you can put any alternative content here. -->
+		</canvas>
+		<noscript>
+			<p>JavaScript is required to view the contents of this page.</p>
+		</noscript>
+		
+		<!-- link to source code, etc -->
+		<p id="sources">Source code: <a href="midtermProject.pde">midtermProject</a> </p>
+	</body>
+
+</html>
